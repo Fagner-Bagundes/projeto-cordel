@@ -10,7 +10,6 @@
     --font1-: Verdana, Geneva, Tahoma, sans-serif;
     --font-2:'Passion One', cursive;
     --font-3:'Sriracha', cursive;
-  </style>
   }
 
 *{
@@ -20,84 +19,63 @@
 
 html, body{
     min-height: 100vh;
-    background-color: darkgray;
+    background-color: white;
     font-family: var(--font1-);
 }
 
 header{
     background-color: black;
-    color: white;
+    color: aliceblue;
     text-align: center;
+    padding-bottom: 40px;
+    
 }
 
-header>h1{
+header>h1 {
     font-family: var(--font-2);
     padding-top: 50px;
     font-variant: small-caps;
     font-size: 10vw;
 }
-
-header>p{
-    padding-bottom: 50px;
-}
-
 a{
     color: white;
     text-decoration: none;
     font-weight: bolder;
 }
+
 a:hover{
     text-decoration: underline;
 }
 
 section{
-    padding-top: 10vh;
-    padding-bottom: 10vh;
-    line-height: 2em;
-    padding-left: 30px;
+    text-align: center;
     font-family: var(--font-3);
-    font-size: 3.5vh;
-}
-
-section > p{
-    padding: 2em;
-}
-
-section.normal{
-    background-color: white;
-    color: black;
-}
-
-section.imagem{
-    background-color: rgb(46, 42, 42);
-    color: white;
-    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.635);
-    background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
-}
-section.imagem>p{
-    background-color: rgba(0, 0, 0, 0.589);
-    display: inline-block;
-    padding: 50px;
-    text-shadow: 2px 1px 0px black;
-    background-repeat: no-repeat;
+    font-size: 2em;
+    margin-top: 100px;
 }
 
 section#img01{
     background-image: url(../imagens/background001.jpg);
-    
+    height:500px;
+    padding-top: 100px;
+    background-position: center center;
+    background-repeat: none;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.imagem> p{
+    background-color: rgba(0, 0, 0, 0.442);
+    color: white;
     
 }
 
 section#img02{
-    background-image: url(../imagens/background002.jpg)
-    
-}
-
-footer{
-    background-color: black;
-    text-align: center;
-    color: white;
-    padding: 10px;
+    background-image: url(../imagens/background002.jpg);
+    height:500px;
+    padding-top: 100px;
+    background-position: center center;
+    background-repeat: none;
+    background-attachment: fixed;
+    background-size: cover;
 }
